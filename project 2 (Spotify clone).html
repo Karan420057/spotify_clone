@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify- Web Player: Music for everyne. (Project 2)</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,300;0,400;1,700&family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="project 2 (Spotify clone).css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar"> 
+            <div class="nav">
+
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="@"> Home </a>
+                </div>
+
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="@"> Search </a>
+                </div>
+
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="images/library_icon.png">
+                        <a href="@"> Your library </a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+
+                </div>
+
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p1"> Create your first playlist </p>
+                        <p class="box-p2"> It's easy, we'll hlep you </p>
+                        <button class="badge"> Create playlist </button>
+                    </div>
+
+                    <div class="box">
+                        <p class="box-p1"> Let's find some podcasts to follow </p>
+                        <p class="box-p2"> We'll keep you updated on new episodes </p>
+                        <button class="badge"> Browse podcasts </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+
+                <div class="sticky-nav-icons">
+                    <i class="fa-solid fa-circle-chevron-left"></i>
+                    <i class="fa-solid fa-circle-chevron-right hide"></i>
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge hide"> Explore Premium </button>
+                    <button class="badge dark-badge"> <i class="fa-regular fa-circle-down" style="margin: 1px;"></i> Install App </button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+            </div>
+
+            <h2> Recently Played </h2>
+            <div class="cards-cointainer">
+                <div class="card">
+                    <img src="images/card1img.jpeg" class="card-img">
+                    <p class="card-title"> Top 50 - Global </p>
+                    <p class="card-info"> Your daily updates of the most played tracks... </p>
+                </div>
+            </div>
+
+            <h2> Trending now hear you </h2>
+            <div class="cards-cointainer">
+                <div class="card">
+                    <img src="images/card2img.jpeg" class="card-img">
+                    <p class="card-title"> Mahiye Jinna Sohna </p>
+                    <p class="card-info"> Darshan Reval </p>
+                </div>
+
+                <div class="card">
+                    <img src="images/card3img.jpeg" class="card-img">
+                    <p class="card-title"> Passori Nu (From "s...) </p>
+                    <p class="card-info"> Arjit Singh, Rochak Kohli, Tulsi Kuman </p>
+                </div>
+
+                <div class="card">
+                    <img src="images/card4img.jpeg" class="card-img">
+                    <p class="card-title"> Naa Ready (From "L...) </p>
+                    <p class="card-info"> Anirudh Ravichandar, Thalapathy Vijay, Asal... </p>
+                </div>
+            </div>
+
+            <h2> Features Charts </h2>
+            <div class="cards-cointainer">
+
+                <div class="card">
+                    <img src="images/card5img.jpeg" class="card-img">
+                    <p class="card-title"> Top 50 - Global </p>
+                    <p class="card-info"> Your daily updates of the most played tracks... </p>
+                </div>
+
+                <div class="card">
+                    <img src="images/card6img.jpeg" class="card-img">
+                    <p class="card-title"> Top songs - India </p>
+                    <p class="card-info"> Your daily updates of the most played tracks... </p>
+                </div>
+
+                <div class="card">
+                    <img src="images/card1img.jpeg" class="card-img">
+                    <p class="card-title"> Top 50 - Global </p>
+                    <p class="card-info"> Your daily updates of the most played tracks... </p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+            
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="images/chand sifaarish.jpg" class="chand"> 
+                <div class="song"> 
+                     <p class="song-title"> Chand Sifarish </p> 
+                     <p class="song-info"> Shaan, Kailash Kher</p> 
+                </div>
+            </div>      
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="images/player_icon1.png" class="player-control-icon">
+                    <img src="images/player_icon2.png" class="player-control-icon">
+                    <img src="images/player_icon3.png" class="player-control-icon" style="opacity: 2; height: 2rem;">
+                    <img src="images/player_icon4.png" class="player-control-icon">
+                    <img src="images/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time"> 00:00 </span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="tol-time"> 3:35 </span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="controls-icons">
+                    <i class="fa-brands fa-square-youtube"></i>
+                    <img src="images/microphone-icon.avif" style="height: 1rem; width: 1rem; margin-top: 5px;">
+                    <i class="fa-regular fa-id-badge"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" min="0" max="100" class="volume-control">
+                </div>
+            </div>   <!-- DYS -->
+        </div>
+    </div>
+</body>
+</html>
